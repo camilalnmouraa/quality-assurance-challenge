@@ -57,3 +57,8 @@ Para gerar o relatório de testes usando o Allure Report, siga estas etapas:
    ```
 
 > Isso irá gerar o relatório e abrir uma página da web com os resultados dos testes. Certifique-se de ter o Allure Command Line Interface instalado globalmente para poder executar o comando para a geração do relatório.
+
+
+___
+
+This project was created with 💙 by [Camila](https://www.linkedin.com/in/camilalnmoura/).
