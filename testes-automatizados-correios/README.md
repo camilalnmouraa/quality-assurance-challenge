@@ -49,7 +49,7 @@ Execute `npx cypress run` para executar os testes automatizados.
     ✔ Busca por CEPs válidos e verificar detalhes específicos
 
 
-  6 passando (Xms)
+  15 passando (Xms)
 ```
 
 ## Relatório de Testes
