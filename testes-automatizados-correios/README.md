@@ -34,6 +34,9 @@ Execute `npx cypress run` para executar os testes automatizados.
     ✔ Buscar por CEPs válidos e verificar informações detalhadas (example #3)passed
     ✔ Buscar por um CEP inexistentepassed
     ✔ Buscar por um CEP com formato inválido
+    √ Buscar por CEP usando endereço completo (example #1) (4792ms)
+    √ Buscar por CEP usando endereço completo (example #2) (5749ms)
+    √ Buscar por CEP usando endereço completo (example #3) (3002ms)
 
   Busca de CEP no Backend
   Funcionalidade de busca de CEP via API ViaCEP

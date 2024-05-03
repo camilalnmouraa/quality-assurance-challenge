@@ -22,7 +22,7 @@
             "name": "Que eu acesso a página de busca de CEP dos Correios",
             "result": {
               "status": "passed",
-              "duration": 10947000000
+              "duration": 10458000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "clico no botão Busca CEP ou Endereço",
             "result": {
               "status": "passed",
-              "duration": 3068000000
+              "duration": 2780000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "Eu insiro o CEP \"01001-000\"",
             "result": {
               "status": "passed",
-              "duration": 219000000
+              "duration": 231000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "Eu seleciono a opção \"ALL\" no tipo de CEP",
             "result": {
               "status": "passed",
-              "duration": 212000000
+              "duration": 205000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "Eu clico no botão de busca",
             "result": {
               "status": "passed",
-              "duration": 125000000
+              "duration": 121000000
             }
           },
           {
@@ -91,7 +91,7 @@
             "name": "Eu devo ver as informações detalhadas:",
             "result": {
               "status": "passed",
-              "duration": 133000000
+              "duration": 123000000
             }
           }
         ]
@@ -111,7 +111,7 @@
             "name": "Que eu acesso a página de busca de CEP dos Correios",
             "result": {
               "status": "passed",
-              "duration": 3683000000
+              "duration": 3817000000
             }
           },
           {
@@ -121,7 +121,7 @@
             "name": "clico no botão Busca CEP ou Endereço",
             "result": {
               "status": "passed",
-              "duration": 1043000000
+              "duration": 1088000000
             }
           },
           {
@@ -131,7 +131,7 @@
             "name": "Eu insiro o CEP \"30170-010\"",
             "result": {
               "status": "passed",
-              "duration": 274000000
+              "duration": 223000000
             }
           },
           {
@@ -141,7 +141,7 @@
             "name": "Eu seleciono a opção \"ALL\" no tipo de CEP",
             "result": {
               "status": "passed",
-              "duration": 290000000
+              "duration": 189000000
             }
           },
           {
@@ -151,7 +151,7 @@
             "name": "Eu clico no botão de busca",
             "result": {
               "status": "passed",
-              "duration": 127000000
+              "duration": 125000000
             }
           },
           {
@@ -180,7 +180,7 @@
             "name": "Eu devo ver as informações detalhadas:",
             "result": {
               "status": "passed",
-              "duration": 138000000
+              "duration": 182000000
             }
           }
         ]
@@ -200,7 +200,7 @@
             "name": "Que eu acesso a página de busca de CEP dos Correios",
             "result": {
               "status": "passed",
-              "duration": 4009000000
+              "duration": 3952000000
             }
           },
           {
@@ -210,7 +210,7 @@
             "name": "clico no botão Busca CEP ou Endereço",
             "result": {
               "status": "passed",
-              "duration": 966000000
+              "duration": 977000000
             }
           },
           {
@@ -220,7 +220,7 @@
             "name": "Eu insiro o CEP \"40010-010\"",
             "result": {
               "status": "passed",
-              "duration": 245000000
+              "duration": 220000000
             }
           },
           {
@@ -230,7 +230,7 @@
             "name": "Eu seleciono a opção \"ALL\" no tipo de CEP",
             "result": {
               "status": "passed",
-              "duration": 198000000
+              "duration": 208000000
             }
           },
           {
@@ -269,7 +269,7 @@
             "name": "Eu devo ver as informações detalhadas:",
             "result": {
               "status": "passed",
-              "duration": 144000000
+              "duration": 135000000
             }
           }
         ]
@@ -289,7 +289,7 @@
             "name": "Que eu acesso a página de busca de CEP dos Correios",
             "result": {
               "status": "passed",
-              "duration": 3043000000
+              "duration": 3844000000
             }
           },
           {
@@ -299,7 +299,7 @@
             "name": "clico no botão Busca CEP ou Endereço",
             "result": {
               "status": "passed",
-              "duration": 760000000
+              "duration": 949000000
             }
           },
           {
@@ -309,7 +309,7 @@
             "name": "Eu insiro o CEP \"00000-000\"",
             "result": {
               "status": "passed",
-              "duration": 226000000
+              "duration": 227000000
             }
           },
           {
@@ -319,7 +319,7 @@
             "name": "Eu clico no botão de busca",
             "result": {
               "status": "passed",
-              "duration": 113000000
+              "duration": 105000000
             }
           },
           {
@@ -349,7 +349,7 @@
             "name": "Que eu acesso a página de busca de CEP dos Correios",
             "result": {
               "status": "passed",
-              "duration": 2566000000
+              "duration": 3446000000
             }
           },
           {
@@ -359,7 +359,7 @@
             "name": "clico no botão Busca CEP ou Endereço",
             "result": {
               "status": "passed",
-              "duration": 881000000
+              "duration": 922000000
             }
           },
           {
@@ -369,7 +369,7 @@
             "name": "Eu insiro o CEP \"abcd\"",
             "result": {
               "status": "passed",
-              "duration": 169000000
+              "duration": 179000000
             }
           },
           {
@@ -379,17 +379,274 @@
             "name": "Eu clico no botão de busca",
             "result": {
               "status": "passed",
-              "duration": 111000000
+              "duration": 114000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "funcionalidade-de-busca-de-cep-no-site-dos-correios;buscar-por-cep-usando-endereço-completo",
+        "keyword": "Scenario",
+        "line": 44,
+        "name": "Buscar por CEP usando endereço completo",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 33,
+            "name": "Que eu acesso a página de busca de CEP dos Correios",
+            "result": {
+              "status": "passed",
+              "duration": 2831000000
             }
           },
           {
             "arguments": [],
-            "keyword": "Then ",
-            "line": 31,
-            "name": "Eu devo ver uma mensagem de erro \"Dados não encontrado\"",
+            "keyword": "And ",
+            "line": 34,
+            "name": "clico no botão Busca CEP ou Endereço",
             "result": {
               "status": "passed",
-              "duration": 68000000
+              "duration": 506000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "Eu insiro o endereço \"Praça da Sé, São Paulo\"",
+            "result": {
+              "status": "passed",
+              "duration": 386000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "Eu seleciono a opção \"ALL\" no tipo de CEP",
+            "result": {
+              "status": "passed",
+              "duration": 197000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "Eu clico no botão de busca",
+            "result": {
+              "status": "passed",
+              "duration": 111000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Logradouro/Nome",
+                      "Bairro/Distrito",
+                      "Localidade/UF"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Praça da Sé",
+                      "Sé",
+                      "São Paulo/SP"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "Eu devo ver as informações detalhadas:",
+            "result": {
+              "status": "passed",
+              "duration": 814000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "funcionalidade-de-busca-de-cep-no-site-dos-correios;buscar-por-cep-usando-endereço-completo",
+        "keyword": "Scenario",
+        "line": 45,
+        "name": "Buscar por CEP usando endereço completo",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 33,
+            "name": "Que eu acesso a página de busca de CEP dos Correios",
+            "result": {
+              "status": "passed",
+              "duration": 3875000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "clico no botão Busca CEP ou Endereço",
+            "result": {
+              "status": "passed",
+              "duration": 886000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "Eu insiro o endereço \"Avenida Bias Fortes, Belo Horizonte\"",
+            "result": {
+              "status": "passed",
+              "duration": 564000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "Eu seleciono a opção \"ALL\" no tipo de CEP",
+            "result": {
+              "status": "passed",
+              "duration": 191000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "Eu clico no botão de busca",
+            "result": {
+              "status": "passed",
+              "duration": 115000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Logradouro/Nome",
+                      "Bairro/Distrito",
+                      "Localidade/UF"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Avenida Bias Fortes - até 279/280",
+                      "Lourdes",
+                      "Belo Horizonte/MG"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "Eu devo ver as informações detalhadas:",
+            "result": {
+              "status": "passed",
+              "duration": 237000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "funcionalidade-de-busca-de-cep-no-site-dos-correios;buscar-por-cep-usando-endereço-completo",
+        "keyword": "Scenario",
+        "line": 46,
+        "name": "Buscar por CEP usando endereço completo",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 33,
+            "name": "Que eu acesso a página de busca de CEP dos Correios",
+            "result": {
+              "status": "passed",
+              "duration": 1564000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "clico no botão Busca CEP ou Endereço",
+            "result": {
+              "status": "passed",
+              "duration": 583000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "Eu insiro o endereço \"Rua da Grécia, Salvador\"",
+            "result": {
+              "status": "passed",
+              "duration": 436000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "Eu seleciono a opção \"ALL\" no tipo de CEP",
+            "result": {
+              "status": "passed",
+              "duration": 190000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "Eu clico no botão de busca",
+            "result": {
+              "status": "passed",
+              "duration": 135000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Logradouro/Nome",
+                      "Bairro/Distrito",
+                      "Localidade/UF"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Rua da Grécia",
+                      "Comércio",
+                      "Salvador/BA"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "Eu devo ver as informações detalhadas:",
+            "result": {
+              "status": "passed",
+              "duration": 174000000
             }
           }
         ]

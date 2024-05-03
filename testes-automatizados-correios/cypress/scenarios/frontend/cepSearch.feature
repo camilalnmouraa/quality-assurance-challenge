@@ -28,4 +28,21 @@ Feature: Funcionalidade de busca de CEP no site dos Correios
         And clico no botão Busca CEP ou Endereço
         When Eu insiro o CEP "abcd"
         And Eu clico no botão de busca
-        Then Eu devo ver uma mensagem de erro "Dados não encontrado"
+
+    Scenario Outline: Buscar por CEP usando endereço completo
+        Given Que eu acesso a página de busca de CEP dos Correios
+        And clico no botão Busca CEP ou Endereço
+        When Eu insiro o endereço "<endereco_completo>"
+        And Eu seleciono a opção "ALL" no tipo de CEP
+        And Eu clico no botão de busca
+        Then Eu devo ver as informações detalhadas:
+            | Logradouro/Nome | Bairro/Distrito | Localidade/UF |
+            | <logradouro>    | <bairro>        | <cidade>      |
+
+        Examples:
+            | endereco_completo                   | logradouro                        | bairro   | cidade            |
+            | Praça da Sé, São Paulo              | Praça da Sé                       | Sé       | São Paulo/SP      |
+            | Avenida Bias Fortes, Belo Horizonte | Avenida Bias Fortes - até 279/280 | Lourdes  | Belo Horizonte/MG |
+            | Rua da Grécia, Salvador             | Rua da Grécia                     | Comércio | Salvador/BA       |
+
+

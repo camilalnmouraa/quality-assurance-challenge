@@ -28,3 +28,7 @@ Then('Eu devo ver as informações detalhadas:', (dataTable) => {
 Then('Eu devo ver uma mensagem de erro {string}', (message) => {
     CepActions.verifyErrorMessage(message);
 });
+
+When('Eu insiro o endereço {string}', (address) => {
+    CepActions.enterAddress(address);
+});

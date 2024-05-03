@@ -75,6 +75,16 @@ class CepActions {
                 expect(text.trim()).to.equal(expectedMessage);
             });
     }
+
+    static enterAddress(address) {
+        cy.get(CepPage.cepInput)
+            .should('be.visible')
+            .type(address)
+            .invoke('val')
+            .then(value => {
+                expect(value).to.equal(address);
+            });
+    }
 }
 
 export default CepActions;
