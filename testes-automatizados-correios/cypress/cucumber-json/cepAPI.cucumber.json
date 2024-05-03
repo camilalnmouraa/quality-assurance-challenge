@@ -22,7 +22,7 @@
             "name": "Eu faço uma requisição GET para o CEP \"52071335\"",
             "result": {
               "status": "passed",
-              "duration": 453000000
+              "duration": 569000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "A resposta deve conter o status 200",
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 8000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "A resposta deve conter os detalhes do CEP",
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 9000000
             }
           }
         ]
@@ -62,7 +62,7 @@
             "name": "Eu faço uma requisição GET para o CEP \"01001-000\"",
             "result": {
               "status": "passed",
-              "duration": 148000000
+              "duration": 162000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "A resposta deve conter o status 200",
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 4000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "Eu faço uma requisição GET para o CEP \"40010-010\"",
             "result": {
               "status": "passed",
-              "duration": 127000000
+              "duration": 134000000
             }
           },
           {
@@ -122,7 +122,7 @@
             "name": "A resposta deve conter os detalhes do CEP",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 8000000
             }
           }
         ]
@@ -142,7 +142,7 @@
             "name": "Eu faço uma requisição GET para o CEP \"asdre\"",
             "result": {
               "status": "passed",
-              "duration": 122000000
+              "duration": 136000000
             }
           },
           {
@@ -152,7 +152,7 @@
             "name": "A resposta deve conter o status 400",
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 4000000
             }
           }
         ]
@@ -172,7 +172,7 @@
             "name": "Eu faço uma requisição GET para o CEP \"99999999\"",
             "result": {
               "status": "passed",
-              "duration": 304000000
+              "duration": 322000000
             }
           },
           {
@@ -182,7 +182,7 @@
             "name": "A resposta deve conter o status 200",
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 4000000
             }
           },
           {

@@ -27,7 +27,7 @@ Execute `npx cypress run` para executar os testes automatizados.
 ```sh
 > cypress run
 
-  Busca de CEP no Frontend
+  Busca de CEP no [Frontend](../testes-automatizados-correios/cypress/scenarios/frontend/cepSearch.feature)
   Funcionalidade de busca de CEP no site dos Correios
     ✔ Buscar por CEPs válidos e verificar informações detalhadas (example #1)passed
     ✔ Buscar por CEPs válidos e verificar informações detalhadas (example #2)passed
@@ -35,7 +35,7 @@ Execute `npx cypress run` para executar os testes automatizados.
     ✔ Buscar por um CEP inexistentepassed
     ✔ Buscar por um CEP com formato inválido
 
-  Busca de CEP no Backend
+  Busca de CEP no [Backend](../testes-automatizados-correios/cypress/scenarios/backend/cepAPI.feature)
   Funcionalidade de busca de CEP via API ViaCEP
     ✔ Busca por CEPs válidos e existentes (example #1)passed
     ✔ Busca por CEPs válidos e existentes (example #2)passed
@@ -49,23 +49,15 @@ Execute `npx cypress run` para executar os testes automatizados.
 
 ## Relatório de Testes
 
-Para gerar o relatório de testes usando o Allure Report, siga estas etapas:
+Para gerar o relatório de testes usando a biblioteca Multiple Cucumber Html Reporter, siga estas etapas:
 
-1. Instale o Allure Command Line Interface (CLI) globalmente via npm, se ainda não estiver instalado:
+1. Após a execução dos testes automatizados, execute o seguinte comando para gerar o relatório:
    
    ```sh
-   npm install -g allure-commandline
+   node cypress/cucumberReport.js
    ```
 
-2. Após a execução dos testes automatizados, execute o seguinte comando para gerar o relatório:
-   
-   ```sh
-   allure generate --clean && allure open
-   ```
-
-> Isso irá gerar o relatório e abrir uma página da web com os resultados dos testes. Certifique-se de ter o Allure Command Line Interface instalado globalmente para poder executar o comando para a geração do relatório.
-
-
+> Após receber a mensagem de confirmação no terminal, navegue até a pasta cucumber-report. Em seguida, localize o arquivo [index.html](../testes-automatizados-correios/cypress/cucumber-report/index.html), clique nele com o botão direito do mouse e escolha a opção Reveal in File Explorer para visualizá-lo no explorador de arquivos.
 ___
 
 This project was created with 💙 by [Camila](https://www.linkedin.com/in/camilalnmoura/).

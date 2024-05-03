@@ -12,7 +12,8 @@ module.exports = defineConfig({
     defaultCommandTimeout: 10000,
     screenshotOnRunFailure: true,
     specPattern: "cypress/scenarios/**/*.{js,jsx,ts,tsx,feature}",
-    "baseUrl": "https://viacep.com.br"
+    baseUrl: "https://viacep.com.br",
+    video: true,
   },
   
 });

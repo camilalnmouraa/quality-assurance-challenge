@@ -7,7 +7,8 @@
   "license": "MIT",
   "devDependencies": {
     "cypress": "^13.8.1",
-    "cypress-cucumber-preprocessor": "^4.3.1"
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "multiple-cucumber-html-reporter": "^3.6.2"
   },
   "cypress-cucumber-preprocessor": {
     "cucumberJson": {
