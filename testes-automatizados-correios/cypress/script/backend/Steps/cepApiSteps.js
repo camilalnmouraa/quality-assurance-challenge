@@ -31,3 +31,19 @@ Then('A resposta deve conter os detalhes do CEP', () => {
 Given('Eu faço uma requisição GET para o CEP {string} inválido', (cep) => {
     CepApiActions.requestInvalidCep(cep).as('response');
 });
+
+Then('O logradouro deve ser {string}', (expectedLogradouro) => {
+    cy.get('@response').its('body.logradouro').should('eq', expectedLogradouro);
+});
+
+Then('O bairro deve ser {string}', (expectedBairro) => {
+    cy.get('@response').its('body.bairro').should('eq', expectedBairro);
+});
+
+Then('A cidade deve ser {string}', (expectedCidade) => {
+    cy.get('@response').its('body.localidade').should('eq', expectedCidade);
+});
+
+Then('O estado deve ser {string}', (expectedEstado) => {
+    cy.get('@response').its('body.uf').should('eq', expectedEstado);
+});

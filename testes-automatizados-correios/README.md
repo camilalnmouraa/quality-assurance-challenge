@@ -42,6 +42,8 @@ Execute `npx cypress run` para executar os testes automatizados.
     ✔ Busca por CEPs válidos e existentes (example #3)passed
     ✔ Consultar CEP com formato inválido
     ✔ Consultar CEP inexistente e verificar mensagem de erro
+    ✔ Alternar entre consulta de CEP válido e inválido
+    ✔ Busca por CEPs válidos e verificar detalhes específicos
 
 
   6 passando (Xms)
