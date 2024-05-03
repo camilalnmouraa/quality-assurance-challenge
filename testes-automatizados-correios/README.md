@@ -35,10 +35,14 @@ Execute `npx cypress run` para executar os testes automatizados.
     ✔ Buscar por um CEP inexistentepassed
     ✔ Buscar por um CEP com formato inválido
 
-  Busca de CEP via API
-    ✔ deve retornar verdadeiro se a API retornar os dados corretos para o CEP
-    ✔ deve retornar falso se a API não encontrar o CEP
-    ✔ deve retornar falso se o formato do CEP for inválido
+  Busca de CEP no Backend
+  Funcionalidade de busca de CEP via API ViaCEP
+    ✔ Busca por CEPs válidos e existentes (example #1)passed
+    ✔ Busca por CEPs válidos e existentes (example #2)passed
+    ✔ Busca por CEPs válidos e existentes (example #3)passed
+    ✔ Consultar CEP com formato inválido
+    ✔ Consultar CEP inexistente e verificar mensagem de erro
+
 
   6 passando (Xms)
 ```

@@ -22,7 +22,7 @@
             "name": "Que eu acesso a página de busca de CEP dos Correios",
             "result": {
               "status": "passed",
-              "duration": 6959000000
+              "duration": 11318000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "clico no botão Busca CEP ou Endereço",
             "result": {
               "status": "passed",
-              "duration": 1642000000
+              "duration": 2890000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "Eu insiro o CEP \"01001-000\"",
             "result": {
               "status": "passed",
-              "duration": 218000000
+              "duration": 228000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "Eu seleciono a opção \"ALL\" no tipo de CEP",
             "result": {
               "status": "passed",
-              "duration": 185000000
+              "duration": 187000000
             }
           },
           {
@@ -91,7 +91,7 @@
             "name": "Eu devo ver as informações detalhadas:",
             "result": {
               "status": "passed",
-              "duration": 129000000
+              "duration": 135000000
             }
           }
         ]
@@ -111,7 +111,7 @@
             "name": "Que eu acesso a página de busca de CEP dos Correios",
             "result": {
               "status": "passed",
-              "duration": 1119000000
+              "duration": 3609000000
             }
           },
           {
@@ -121,7 +121,7 @@
             "name": "clico no botão Busca CEP ou Endereço",
             "result": {
               "status": "passed",
-              "duration": 407000000
+              "duration": 884000000
             }
           },
           {
@@ -131,7 +131,7 @@
             "name": "Eu insiro o CEP \"30170-010\"",
             "result": {
               "status": "passed",
-              "duration": 194000000
+              "duration": 215000000
             }
           },
           {
@@ -141,7 +141,7 @@
             "name": "Eu seleciono a opção \"ALL\" no tipo de CEP",
             "result": {
               "status": "passed",
-              "duration": 146000000
+              "duration": 182000000
             }
           },
           {
@@ -151,7 +151,7 @@
             "name": "Eu clico no botão de busca",
             "result": {
               "status": "passed",
-              "duration": 90000000
+              "duration": 110000000
             }
           },
           {
@@ -180,7 +180,7 @@
             "name": "Eu devo ver as informações detalhadas:",
             "result": {
               "status": "passed",
-              "duration": 57000000
+              "duration": 123000000
             }
           }
         ]
@@ -200,7 +200,7 @@
             "name": "Que eu acesso a página de busca de CEP dos Correios",
             "result": {
               "status": "passed",
-              "duration": 2764000000
+              "duration": 3564000000
             }
           },
           {
@@ -210,7 +210,7 @@
             "name": "clico no botão Busca CEP ou Endereço",
             "result": {
               "status": "passed",
-              "duration": 908000000
+              "duration": 471000000
             }
           },
           {
@@ -220,7 +220,7 @@
             "name": "Eu insiro o CEP \"40010-010\"",
             "result": {
               "status": "passed",
-              "duration": 210000000
+              "duration": 204000000
             }
           },
           {
@@ -230,7 +230,7 @@
             "name": "Eu seleciono a opção \"ALL\" no tipo de CEP",
             "result": {
               "status": "passed",
-              "duration": 169000000
+              "duration": 180000000
             }
           },
           {
@@ -240,7 +240,7 @@
             "name": "Eu clico no botão de busca",
             "result": {
               "status": "passed",
-              "duration": 93000000
+              "duration": 122000000
             }
           },
           {
@@ -269,7 +269,7 @@
             "name": "Eu devo ver as informações detalhadas:",
             "result": {
               "status": "passed",
-              "duration": 105000000
+              "duration": 112000000
             }
           }
         ]
@@ -289,7 +289,7 @@
             "name": "Que eu acesso a página de busca de CEP dos Correios",
             "result": {
               "status": "passed",
-              "duration": 1153000000
+              "duration": 2803000000
             }
           },
           {
@@ -299,7 +299,7 @@
             "name": "clico no botão Busca CEP ou Endereço",
             "result": {
               "status": "passed",
-              "duration": 395000000
+              "duration": 682000000
             }
           },
           {
@@ -309,7 +309,7 @@
             "name": "Eu insiro o CEP \"00000-000\"",
             "result": {
               "status": "passed",
-              "duration": 200000000
+              "duration": 236000000
             }
           },
           {
@@ -319,7 +319,7 @@
             "name": "Eu clico no botão de busca",
             "result": {
               "status": "passed",
-              "duration": 97000000
+              "duration": 95000000
             }
           },
           {
@@ -329,7 +329,7 @@
             "name": "Eu devo ver uma mensagem de erro \"Dados não encontrado\"",
             "result": {
               "status": "passed",
-              "duration": 30000000
+              "duration": 52000000
             }
           }
         ]
@@ -349,7 +349,7 @@
             "name": "Que eu acesso a página de busca de CEP dos Correios",
             "result": {
               "status": "passed",
-              "duration": 1494000000
+              "duration": 2743000000
             }
           },
           {
@@ -359,7 +359,7 @@
             "name": "clico no botão Busca CEP ou Endereço",
             "result": {
               "status": "passed",
-              "duration": 651000000
+              "duration": 707000000
             }
           },
           {
@@ -369,7 +369,7 @@
             "name": "Eu insiro o CEP \"abcd\"",
             "result": {
               "status": "passed",
-              "duration": 133000000
+              "duration": 129000000
             }
           },
           {
@@ -379,7 +379,7 @@
             "name": "Eu clico no botão de busca",
             "result": {
               "status": "passed",
-              "duration": 92000000
+              "duration": 95000000
             }
           },
           {
@@ -389,7 +389,7 @@
             "name": "Eu devo ver uma mensagem de erro \"Dados não encontrado\"",
             "result": {
               "status": "passed",
-              "duration": 122000000
+              "duration": 54000000
             }
           }
         ]

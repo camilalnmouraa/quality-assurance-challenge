@@ -1,0 +1,202 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Funcionalidade de busca de CEP via API ViaCEP",
+    "line": 1,
+    "id": "funcionalidade-de-busca-de-cep-via-api-viacep",
+    "tags": [],
+    "uri": "cepAPI.feature",
+    "elements": [
+      {
+        "id": "funcionalidade-de-busca-de-cep-via-api-viacep;busca-por-ceps-válidos-e-existentes",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Busca por CEPs válidos e existentes",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Eu faço uma requisição GET para o CEP \"52071335\"",
+            "result": {
+              "status": "passed",
+              "duration": 453000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "A resposta deve conter o status 200",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "A resposta deve conter os detalhes do CEP",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "funcionalidade-de-busca-de-cep-via-api-viacep;busca-por-ceps-válidos-e-existentes",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Busca por CEPs válidos e existentes",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Eu faço uma requisição GET para o CEP \"01001-000\"",
+            "result": {
+              "status": "passed",
+              "duration": 148000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "A resposta deve conter o status 200",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "A resposta deve conter os detalhes do CEP",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "funcionalidade-de-busca-de-cep-via-api-viacep;busca-por-ceps-válidos-e-existentes",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Busca por CEPs válidos e existentes",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Eu faço uma requisição GET para o CEP \"40010-010\"",
+            "result": {
+              "status": "passed",
+              "duration": 127000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "A resposta deve conter o status 200",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "A resposta deve conter os detalhes do CEP",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "funcionalidade-de-busca-de-cep-via-api-viacep;consultar-cep-com-formato-inválido",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Consultar CEP com formato inválido",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "Eu faço uma requisição GET para o CEP \"asdre\"",
+            "result": {
+              "status": "passed",
+              "duration": 122000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "A resposta deve conter o status 400",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "funcionalidade-de-busca-de-cep-via-api-viacep;consultar-cep-inexistente-e-verificar-mensagem-de-erro",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Consultar CEP inexistente e verificar mensagem de erro",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "Eu faço uma requisição GET para o CEP \"99999999\"",
+            "result": {
+              "status": "passed",
+              "duration": 304000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "A resposta deve conter o status 200",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "A resposta deve conter uma mensagem de erro \"erro: true\"",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
