@@ -28,9 +28,12 @@ Execute `npx cypress run` para executar os testes automatizados.
 > cypress run
 
   Busca de CEP no Frontend
-    ✔ deve retornar verdadeiro se o endereço corresponder ao CEP informado
-    ✔ deve retornar falso se o endereço não corresponder ao CEP informado
-    ✔ deve retornar verdadeiro se a formatação do CEP for validada corretamente
+  Funcionalidade de busca de CEP no site dos Correios
+    ✔ Buscar por CEPs válidos e verificar informações detalhadas (example #1)passed
+    ✔ Buscar por CEPs válidos e verificar informações detalhadas (example #2)passed
+    ✔ Buscar por CEPs válidos e verificar informações detalhadas (example #3)passed
+    ✔ Buscar por um CEP inexistentepassed
+    ✔ Buscar por um CEP com formato inválido
 
   Busca de CEP via API
     ✔ deve retornar verdadeiro se a API retornar os dados corretos para o CEP

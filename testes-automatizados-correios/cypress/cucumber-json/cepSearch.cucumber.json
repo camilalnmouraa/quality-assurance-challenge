@@ -1,0 +1,399 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Funcionalidade de busca de CEP no site dos Correios",
+    "line": 1,
+    "id": "funcionalidade-de-busca-de-cep-no-site-dos-correios",
+    "tags": [],
+    "uri": "cepSearch.feature",
+    "elements": [
+      {
+        "id": "funcionalidade-de-busca-de-cep-no-site-dos-correios;buscar-por-ceps-válidos-e-verificar-informações-detalhadas",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Buscar por CEPs válidos e verificar informações detalhadas",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Que eu acesso a página de busca de CEP dos Correios",
+            "result": {
+              "status": "passed",
+              "duration": 6959000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "clico no botão Busca CEP ou Endereço",
+            "result": {
+              "status": "passed",
+              "duration": 1642000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Eu insiro o CEP \"01001-000\"",
+            "result": {
+              "status": "passed",
+              "duration": 218000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Eu seleciono a opção \"ALL\" no tipo de CEP",
+            "result": {
+              "status": "passed",
+              "duration": 185000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Eu clico no botão de busca",
+            "result": {
+              "status": "passed",
+              "duration": 110000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Logradouro/Nome",
+                      "Bairro/Distrito",
+                      "Localidade/UF"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Praça da Sé",
+                      "Sé",
+                      "São Paulo/SP"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Eu devo ver as informações detalhadas:",
+            "result": {
+              "status": "passed",
+              "duration": 129000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "funcionalidade-de-busca-de-cep-no-site-dos-correios;buscar-por-ceps-válidos-e-verificar-informações-detalhadas",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Buscar por CEPs válidos e verificar informações detalhadas",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Que eu acesso a página de busca de CEP dos Correios",
+            "result": {
+              "status": "passed",
+              "duration": 1119000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "clico no botão Busca CEP ou Endereço",
+            "result": {
+              "status": "passed",
+              "duration": 407000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Eu insiro o CEP \"30170-010\"",
+            "result": {
+              "status": "passed",
+              "duration": 194000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Eu seleciono a opção \"ALL\" no tipo de CEP",
+            "result": {
+              "status": "passed",
+              "duration": 146000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Eu clico no botão de busca",
+            "result": {
+              "status": "passed",
+              "duration": 90000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Logradouro/Nome",
+                      "Bairro/Distrito",
+                      "Localidade/UF"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Avenida Bias Fortes - até 279/280",
+                      "Lourdes",
+                      "Belo Horizonte/MG"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Eu devo ver as informações detalhadas:",
+            "result": {
+              "status": "passed",
+              "duration": 57000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "funcionalidade-de-busca-de-cep-no-site-dos-correios;buscar-por-ceps-válidos-e-verificar-informações-detalhadas",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Buscar por CEPs válidos e verificar informações detalhadas",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Que eu acesso a página de busca de CEP dos Correios",
+            "result": {
+              "status": "passed",
+              "duration": 2764000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "clico no botão Busca CEP ou Endereço",
+            "result": {
+              "status": "passed",
+              "duration": 908000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Eu insiro o CEP \"40010-010\"",
+            "result": {
+              "status": "passed",
+              "duration": 210000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Eu seleciono a opção \"ALL\" no tipo de CEP",
+            "result": {
+              "status": "passed",
+              "duration": 169000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Eu clico no botão de busca",
+            "result": {
+              "status": "passed",
+              "duration": 93000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Logradouro/Nome",
+                      "Bairro/Distrito",
+                      "Localidade/UF"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Rua da Grécia",
+                      "Comércio",
+                      "Salvador/BA"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Eu devo ver as informações detalhadas:",
+            "result": {
+              "status": "passed",
+              "duration": 105000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "funcionalidade-de-busca-de-cep-no-site-dos-correios;buscar-por-um-cep-inexistente",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Buscar por um CEP inexistente",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "Que eu acesso a página de busca de CEP dos Correios",
+            "result": {
+              "status": "passed",
+              "duration": 1153000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "clico no botão Busca CEP ou Endereço",
+            "result": {
+              "status": "passed",
+              "duration": 395000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "Eu insiro o CEP \"00000-000\"",
+            "result": {
+              "status": "passed",
+              "duration": 200000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "Eu clico no botão de busca",
+            "result": {
+              "status": "passed",
+              "duration": 97000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "Eu devo ver uma mensagem de erro \"Dados não encontrado\"",
+            "result": {
+              "status": "passed",
+              "duration": 30000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "funcionalidade-de-busca-de-cep-no-site-dos-correios;buscar-por-um-cep-com-formato-inválido",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Buscar por um CEP com formato inválido",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 27,
+            "name": "Que eu acesso a página de busca de CEP dos Correios",
+            "result": {
+              "status": "passed",
+              "duration": 1494000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "clico no botão Busca CEP ou Endereço",
+            "result": {
+              "status": "passed",
+              "duration": 651000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "Eu insiro o CEP \"abcd\"",
+            "result": {
+              "status": "passed",
+              "duration": 133000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "Eu clico no botão de busca",
+            "result": {
+              "status": "passed",
+              "duration": 92000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "Eu devo ver uma mensagem de erro \"Dados não encontrado\"",
+            "result": {
+              "status": "passed",
+              "duration": 122000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
