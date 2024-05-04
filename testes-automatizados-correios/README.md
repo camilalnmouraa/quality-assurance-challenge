@@ -48,8 +48,24 @@ Execute `npx cypress run` para executar os testes automatizados.
     ✔ Alternar entre consulta de CEP válido e inválido
     ✔ Busca por CEPs válidos e verificar detalhes específicos
 
+  Busca de CEP no Frontend e no Backend
+  Cruzamento de Informações de CEP entre API ViaCEP e Site dos Correios
+    √ Validar consistência das informações de CEP entre API e Site dos Correios (example #1) (10449ms)
+    √ Validar consistência das informações de CEP entre API e Site dos Correios (example #2) (4959ms)
+    √ Validar consistência das informações de CEP entre API e Site dos Correios (example #3) (4313ms)
 
-  6 passando (Xms)
+
+    Spec                                              Tests  Passing  Failing  Pending  Skipped
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✔  backend/cepAPI.feature                   00:02        9        9        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✖  frontend/cepSearch.feature               00:47        8        7        1        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  integration/two-tierValidation.feat      00:23        3        3        -        -        - │
+  │    ure                                                                                         │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✖  1 of 3 failed (33%)                      01:12       20       19        1        -        -
+
 ```
 
 ## Relatório de Testes
@@ -65,9 +81,9 @@ Para gerar o relatório de testes usando a biblioteca Multiple Cucumber Html Rep
 > Após receber a mensagem de confirmação no terminal, navegue até a pasta cucumber-report. Em seguida, localize o arquivo [index.html](../testes-automatizados-correios/cypress/cucumber-report/index.html), clique nele com o botão direito do mouse e escolha a opção Reveal in File Explorer para visualizá-lo no explorador de arquivos.
 
 
-![image](https://github.com/camilalnmouraa/quality-assurance-challenge/assets/124525550/422c05da-c375-475d-95d4-d9ada4e2b2e2)
+![Cucumber Report](cypress/cucumber-report/assets/img/2024-05-04_10-16.png "Reporte de Cucumber")
 
 
 ___
 
-This project was created with 💙 by [Camila](https://www.linkedin.com/in/camilalnmoura/).
+This project was created with 🐶 by [Camila](https://www.linkedin.com/in/camilalnmoura/).

@@ -5,6 +5,10 @@ Given('Que eu acesso a página de busca de CEP dos Correios', () => {
     CepActions.navigateToCepPage();
 });
 
+When('Que eu acesso a página de busca de CEP dos Correios', () => {
+    CepActions.navigateToCepPage();
+});
+
 Given('clico no botão Busca CEP ou Endereço', () => {
     CepActions.searchCep();
 });
